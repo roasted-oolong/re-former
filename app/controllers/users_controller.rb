@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def new
-  # Renders a form for creating a new user
+    @user = User.new
   end
 
   def create
